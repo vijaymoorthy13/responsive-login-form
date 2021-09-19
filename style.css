@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+	overflow: hidden;
+	border: 0;
+	border-radius: 20px!important;
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.card-body h4{
+	font-family: 'Lobster', cursive;
+}
+.img-left{
+	width: 45%;
+	background: url('3d.jpg')center;
+	background-size: cover ;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 20px;
+
+}
+.card-body{
+	padding: 2rem;
+}
+.title{
+	margin-bottom: 3rem;
+}
+.form-input{
+	position: relative;
+  
+}
+.form-input input{
+	width: 100%;
+	height: 45px;
+	padding-left: 40px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	box-shadow: none;
+	border: 1px solid #00000020;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 50px;
+	outline: none;
+	background: transparent;
+}
+.form-input span{
+	position: absolute;
+	top: 10px;
+	padding-left: 15px;
+	color: #007bff;
+}
+.form-input input::placeholder{
+    color: black; 
+	padding: 0px;
+	
+}
+ .form-input input:focus, .form-input input:valid{
+ 	border: 2px solid; 
+ 	color: #007bff;
+ 
+}
+.form-input input:focus::placeholder{
+	color: #454b69;
+	border: 2px;
+
+}
+.form-check .form-check-input:checked ~ .form-check-label::before{
+	background-color: #007bff!important;
+	border: 0px;
+
+}
+.form-box button[type="submit"]{
+	margin-top: 10px;
+	border: none;
+	cursor: pointer;
+	border-radius: 50px;
+	background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+	color: white;
+	font-size:90%;
+	font-weight: bold;
+	letter-spacing: .1rem;
+	transition: 0.5s;
+	padding: 12px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}	
+.form-box button[type="submit"]:hover{
+background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.text-right .forget-link{
+	color: grey;
+	font-weight: bold;
+	text-decoration: none;
+}
+.forget-link:hover{
+	color: blue;
+	text-decoration: none;
+}
+.text-center .register-link{
+   color: grey;
+	font-weight: bold;
+	text-decoration: none;	
+}
+
+.text-center .login-link{
+   color: grey;
+	font-weight: bold;
+	text-decoration: none;	
+}
+
+.register-link:hover{
+	color: blue;
+	text-decoration: none;
+}
+.login-link:hover{
+	color: blue;
+	text-decoration: none;
+}
+
+
+
+
+
+
